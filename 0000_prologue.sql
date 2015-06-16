@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.6.25, for osx10.10 (x86_64)
+-- MySQL dump 10.15  Distrib 10.0.19-MariaDB, for debian-linux-gnu (i686)
 --
--- Host: localhost    Database: askoldova
+-- Host: localhost    Database: askoldovadev
 -- ------------------------------------------------------
--- Server version	5.6.25
+-- Server version	10.0.19-MariaDB-1~wheezy
 /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
 /*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;

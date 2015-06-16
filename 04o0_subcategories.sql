@@ -8,10 +8,10 @@
 CREATE TABLE `subcategories` (
   `sct_id` decimal(3,0) DEFAULT NULL,
   `sct_order` decimal(2,0) DEFAULT NULL,
-  `sct_name_eng` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `sct_name_eng` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `sct_cat_id` decimal(2,0) DEFAULT NULL,
-  `sct_name` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `sct_action` varchar(30) COLLATE utf8_unicode_ci DEFAULT NULL
+  `sct_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `sct_action` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL
 );
 /*!40101 SET character_set_client = @saved_cs_client */;
 

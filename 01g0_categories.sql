@@ -6,8 +6,8 @@
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `categories` (
-  `cat_name_eng` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `cat_name` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `cat_name_eng` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `cat_name` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `cat_id` decimal(2,0) DEFAULT NULL,
   `cat_hidden` tinyint(1) DEFAULT NULL,
   `cat_width` decimal(4,0) DEFAULT NULL,

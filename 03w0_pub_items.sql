@@ -6,17 +6,17 @@
 CREATE TABLE `pub_items` (
   `pbi_show_date` tinyint(1) DEFAULT NULL,
   `pbi_rss_id` decimal(5,0) DEFAULT NULL,
-  `pbi_text_short` mediumtext COLLATE utf8_unicode_ci,
+  `pbi_text_short` mediumtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
   `pbi_date` datetime DEFAULT NULL,
-  `pbi_rss_url` varchar(1024) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `pbi_state` varchar(3) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `pbi_text` mediumtext COLLATE utf8_unicode_ci,
-  `pbi_title` varchar(256) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `pbi_lang_id` varchar(3) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `pbi_rss_url` varchar(1024) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `pbi_state` varchar(3) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `pbi_text` mediumtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
+  `pbi_title` varchar(256) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `pbi_lang_id` varchar(3) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `pbi_id` decimal(10,0) NOT NULL DEFAULT '0',
   `pbi_pub_id` decimal(10,0) DEFAULT NULL,
   `pbi_can_comment` tinyint(1) DEFAULT NULL,
-  `pbi_author` varchar(80) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `pbi_author` varchar(80) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`pbi_id`)
 );
 /*!40101 SET character_set_client = @saved_cs_client */;

@@ -6,10 +6,10 @@
 CREATE TABLE `django_admin_log` (
   `id` int(11) NOT NULL,
   `action_time` datetime(6) NOT NULL,
-  `object_id` longtext COLLATE utf8_unicode_ci,
-  `object_repr` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `object_id` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci,
+  `object_repr` varchar(200) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `action_flag` smallint(5) unsigned NOT NULL,
-  `change_message` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `change_message` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `content_type_id` int(11) DEFAULT NULL,
   `user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),

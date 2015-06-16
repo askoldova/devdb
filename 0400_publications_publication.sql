@@ -5,10 +5,10 @@
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `publications_publication` (
   `id` int(11) NOT NULL,
-  `type` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
-  `slug` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `type` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `slug` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `rss_stream` int(11) DEFAULT NULL,
-  `rss_url` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `rss_url` varchar(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `subcategory_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `slug` (`slug`),

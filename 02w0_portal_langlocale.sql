@@ -5,7 +5,7 @@
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `portal_langlocale` (
   `id` int(11) NOT NULL,
-  `caption` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `caption` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `lang_id` int(11) NOT NULL,
   `locale_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),

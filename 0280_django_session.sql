@@ -4,8 +4,8 @@
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `django_session` (
-  `session_key` varchar(40) COLLATE utf8_unicode_ci NOT NULL,
-  `session_data` longtext COLLATE utf8_unicode_ci NOT NULL,
+  `session_key` varchar(40) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `session_data` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `expire_date` datetime(6) NOT NULL,
   PRIMARY KEY (`session_key`),
   KEY `django_session_de54fa62` (`expire_date`)

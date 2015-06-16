@@ -5,8 +5,8 @@
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `django_content_type` (
   `id` int(11) NOT NULL,
-  `app_label` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
-  `model` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `app_label` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `model` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `django_content_type_app_label_45f3b1d93ec8c61c_uniq` (`app_label`,`model`)
 );

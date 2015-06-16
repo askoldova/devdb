@@ -5,7 +5,7 @@
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `publications` (
   `pub_id` decimal(10,0) DEFAULT NULL,
-  `pub_type` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL
+  `pub_type` varchar(10) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL
 );
 /*!40101 SET character_set_client = @saved_cs_client */;
 
