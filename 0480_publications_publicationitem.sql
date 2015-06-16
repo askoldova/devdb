@@ -1,5 +1,3 @@
-
---
 -- Table structure for table `publications_publicationitem`
 --
 
@@ -13,13 +11,13 @@ CREATE TABLE `publications_publicationitem` (
   `title` varchar(100) NOT NULL,
   `short_text` longtext NOT NULL,
   `text` longtext NOT NULL,
-  `author_id` int(11) NOT NULL,
+  `author_id` int(11) DEFAULT NULL,
   `locale_id` int(11) NOT NULL,
   `publication_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `publications_publicationitem_author_id_5c022612_fk_auth_user_id` (`author_id`),
   KEY `publications_publicationite_locale_id_607e2667_fk_portal_lang_id` (`locale_id`),
   KEY `publicati_publication_id_65f1b9a8_fk_publications_publication_id` (`publication_id`),
+  KEY `publications_publicationitem_author_id_5c022612_fk_auth_user_id` (`author_id`),
   CONSTRAINT `publicati_publication_id_65f1b9a8_fk_publications_publication_id` FOREIGN KEY (`publication_id`) REFERENCES `publications_publication` (`id`),
   CONSTRAINT `publications_publicationite_locale_id_607e2667_fk_portal_lang_id` FOREIGN KEY (`locale_id`) REFERENCES `portal_lang` (`id`),
   CONSTRAINT `publications_publicationitem_author_id_5c022612_fk_auth_user_id` FOREIGN KEY (`author_id`) REFERENCES `auth_user` (`id`)
@@ -30,3 +28,5 @@ CREATE TABLE `publications_publicationitem` (
 -- Dumping data for table `publications_publicationitem`
 --
 
+INSERT INTO `publications_publicationitem` (`id`, `publication_date`, `show_date`, `state`, `title`, `short_text`, `text`, `author_id`, `locale_id`, `publication_id`) VALUES
+(1,'2015-06-16 08:24:05',0,'N','Test','<p>t</p>','<p>t</p>',NULL,1,1);

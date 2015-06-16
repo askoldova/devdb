@@ -32,4 +32,6 @@ INSERT INTO `django_admin_log` (`id`, `action_time`, `object_id`, `object_repr`,
 (3,'2015-06-16 07:53:17','2','EN English',1,'',8,1),
 (4,'2015-06-16 07:53:35','1','UK Українська',2,'Changed caption. Added lang locale \"UK>EN Ukrainian\".',8,1),
 (5,'2015-06-16 07:53:49','1','UK Українська',2,'Added lang locale \"UK>UK Українська\".',8,1),
-(6,'2015-06-16 07:54:12','2','EN English',2,'Added lang locale \"EN>EN English\".',8,1);
+(6,'2015-06-16 07:54:12','2','EN English',2,'Added lang locale \"EN>EN English\".',8,1),
+(7,'2015-06-16 08:16:51','1','Test(EN)',1,'',10,1),
+(8,'2015-06-16 08:24:05','1','Publication object',1,'',14,1);

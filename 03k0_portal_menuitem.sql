@@ -23,3 +23,5 @@ CREATE TABLE `portal_menuitem` (
 -- Dumping data for table `portal_menuitem`
 --
 
+INSERT INTO `portal_menuitem` (`id`, `caption`, `order`, `locale_id`, `menu_id`) VALUES
+(1,'Item',0,2,1);

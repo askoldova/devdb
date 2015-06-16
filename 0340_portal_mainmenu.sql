@@ -21,3 +21,5 @@ CREATE TABLE `portal_mainmenu` (
 -- Dumping data for table `portal_mainmenu`
 --
 
+INSERT INTO `portal_mainmenu` (`id`, `caption`, `order`, `hidden`, `width`, `locale_id`) VALUES
+(1,'Test',0,0,'',2);

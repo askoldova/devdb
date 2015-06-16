@@ -1,5 +1,3 @@
-
---
 -- Table structure for table `portal_mainmenui18n`
 --
 
