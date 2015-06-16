@@ -1,5 +1,3 @@
-
---
 -- Table structure for table `portal_menuitem`
 --
 
@@ -7,15 +5,14 @@
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `portal_menuitem` (
   `id` int(11) NOT NULL,
-  `caption` varchar(100) NOT NULL,
+  `caption` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `order` smallint(6) NOT NULL,
   `locale_id` int(11) NOT NULL,
   `menu_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `portal_menuitem_menu_id_68ea09c7_uniq` (`menu_id`,`caption`,`locale_id`),
-  KEY `portal_menuitem_locale_id_6234159c_fk_portal_lang_id` (`locale_id`),
-  CONSTRAINT `portal_menuitem_locale_id_6234159c_fk_portal_lang_id` FOREIGN KEY (`locale_id`) REFERENCES `portal_lang` (`id`),
-  CONSTRAINT `portal_menuitem_menu_id_2f042a1b_fk_portal_mainmenu_id` FOREIGN KEY (`menu_id`) REFERENCES `portal_mainmenu` (`id`)
+  UNIQUE KEY `portal_menuitem_menu_id_1de84ca79715f639_uniq` (`menu_id`,`caption`,`locale_id`),
+  KEY `portal_menuitem_locale_id_1e253d849dcbea64_fk_portal_lang_id` (`locale_id`),
+  CONSTRAINT `portal_menuitem_locale_id_1e253d849dcbea64_fk_portal_lang_id` FOREIGN KEY (`locale_id`) REFERENCES `portal_lang` (`id`)
 );
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -24,4 +21,50 @@ CREATE TABLE `portal_menuitem` (
 --
 
 INSERT INTO `portal_menuitem` (`id`, `caption`, `order`, `locale_id`, `menu_id`) VALUES
-(1,'Item',0,2,1);
+(5,'життя мученика Аскольда',0,1,5),
+(11,'життя святого Миколая Чудотворця',1,1,5),
+(12,'історія Аскольдової Могили',2,1,5),
+(13,'аскольдів цвинтар',3,1,5),
+(14,'калиновий гай',4,1,5),
+(15,'путівник для туристів',5,1,5),
+(16,'відродження парафії',1,1,6),
+(17,'визначні події парафії',2,1,6),
+(18,'митецька сторінка парафіян',3,1,6),
+(19,'Парафіяльна служба милосердя',0,1,7),
+(21,'товариство «разом за життя»',2,1,7),
+(22,'нові видання',0,1,8),
+(23,'доросла література',1,1,8),
+(24,'дитяча література',2,1,8),
+(25,'Аскольд у творах',3,1,8),
+(26,'Газета «ОРАНТА»',0,1,9),
+(27,'Друковані ЗМІ',1,1,9),
+(28,'Радіо',2,1,9),
+(29,'Телебачення',3,1,9),
+(30,'Інтернет видання',4,1,9),
+(31,'Адреса',0,1,10),
+(32,'поштова скринька церкви',1,1,10),
+(33,'контакти о. Ігора',2,1,10),
+(34,'контакти о. Олексія',3,1,10),
+(35,'контакти о. Анатолія',4,1,10),
+(36,'диякон Олександр',5,1,10),
+(37,'особи, що займаються організацією парафіяльної діяльності',6,1,10),
+(38,'Розклад богослужінь',0,1,11),
+(39,'Допоміжні web-ресурси',4,1,11),
+(40,'Розклад катехизації',2,1,11),
+(41,'Розклад реколекцій',3,1,11),
+(42,'В Україні',0,1,12),
+(43,'За кордоном',1,1,12),
+(44,'Апостольський візит Папи Павла ІІ',0,1,14),
+(45,'Герої Крут',1,1,14),
+(46,'Ікони церкви',2,1,14),
+(47,'Розклад прощ',4,1,11),
+(48,'Відеоархів',0,1,15),
+(49,'Фотоархів',1,1,15),
+(50,'Катехизм',3,1,14),
+(51,'Аскольд єднає нас в родину',4,1,6),
+(52,'Новини',10,1,16),
+(53,'Про конкурс',20,1,16),
+(54,'Аскольд у творах',30,1,16),
+(55,'Відеоархів',40,1,16),
+(56,'Фотогалерея',50,1,16),
+(57,'Оргкомітет',70,1,16);

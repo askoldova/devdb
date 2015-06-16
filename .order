@@ -5,6 +5,7 @@
     "auth_user": 1152,
     "auth_user_groups": 1440,
     "auth_user_user_permissions": 1728,
+    "categories": 1872,
     "django_admin_log": 2016,
     "django_content_type": 2304,
     "django_migrations": 2592,
@@ -16,7 +17,11 @@
     "portal_mainmenui18n": 4320,
     "portal_menuitem": 4608,
     "portal_menuitemi18n": 4896,
+    "pub_items": 5040,
+    "pub_subcats": 5112,
+    "publications": 5148,
     "publications_publication": 5184,
     "publications_publicationitem": 5472,
-    "publications_publicationsubcategory": 5760
+    "publications_publicationsubcategory": 5760,
+    "subcategories": 6048
 }

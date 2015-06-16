@@ -5,8 +5,8 @@
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `django_site` (
   `id` int(11) NOT NULL,
-  `domain` varchar(100) NOT NULL,
-  `name` varchar(50) NOT NULL,
+  `domain` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`)
 );
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -16,4 +16,4 @@ CREATE TABLE `django_site` (
 --
 
 INSERT INTO `django_site` (`id`, `domain`, `name`) VALUES
-(1,'example.com','example.com');
+(1,'localhost:8000','localhost');
