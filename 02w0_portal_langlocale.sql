@@ -1,5 +1,3 @@
-
---
 -- Table structure for table `portal_langlocale`
 --
 
@@ -22,3 +20,8 @@ CREATE TABLE `portal_langlocale` (
 -- Dumping data for table `portal_langlocale`
 --
 
+INSERT INTO `portal_langlocale` (`id`, `caption`, `lang_id`, `locale_id`) VALUES
+(1,'Англійська',2,1),
+(2,'Ukrainian',1,2),
+(3,'Українська',1,1),
+(4,'English',2,2);

@@ -1,5 +1,3 @@
-
---
 -- Table structure for table `auth_user_groups`
 --
 

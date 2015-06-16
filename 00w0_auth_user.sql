@@ -24,3 +24,5 @@ CREATE TABLE `auth_user` (
 -- Dumping data for table `auth_user`
 --
 
+INSERT INTO `auth_user` (`id`, `password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES
+(1,'pbkdf2_sha256$20000$3QDW0oKCoaYS$pKMtU1aDkYPSWHrcTPz1uIZpaBtM3QWhm9B6vqHpI2c=','2015-06-16 07:43:04',1,'andriyg_local','','','andriyg@icloud.com',1,1,'2015-06-16 07:41:51');

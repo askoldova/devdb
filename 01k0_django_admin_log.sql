@@ -26,3 +26,10 @@ CREATE TABLE `django_admin_log` (
 -- Dumping data for table `django_admin_log`
 --
 
+INSERT INTO `django_admin_log` (`id`, `action_time`, `object_id`, `object_repr`, `action_flag`, `change_message`, `content_type_id`, `user_id`) VALUES
+(1,'2015-06-16 07:52:09','1','UK Ukrainian',1,'',8,1),
+(2,'2015-06-16 07:52:47','1','UK Ukrainian',2,'No fields changed.',8,1),
+(3,'2015-06-16 07:53:17','2','EN English',1,'',8,1),
+(4,'2015-06-16 07:53:35','1','UK Українська',2,'Changed caption. Added lang locale \"UK>EN Ukrainian\".',8,1),
+(5,'2015-06-16 07:53:49','1','UK Українська',2,'Added lang locale \"UK>UK Українська\".',8,1),
+(6,'2015-06-16 07:54:12','2','EN English',2,'Added lang locale \"EN>EN English\".',8,1);

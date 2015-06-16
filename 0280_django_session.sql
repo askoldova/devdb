@@ -16,3 +16,5 @@ CREATE TABLE `django_session` (
 -- Dumping data for table `django_session`
 --
 
+INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES
+('6rdnfr4c9fxv1evs21ug4elqbthais1v','OTU2MGFhN2UzMDViMTQ0YzZkOTJkYWFlZGRmODI4NmE2NjNiNGVmODp7Il9hdXRoX3VzZXJfaGFzaCI6ImFlZDllY2M5YWE5Mzk3NDA0NGYzN2NmYzRkNjdhZTMwOTZkY2IyYjQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=','2015-06-30 07:43:04');

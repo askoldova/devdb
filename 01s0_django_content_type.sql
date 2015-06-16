@@ -1,5 +1,3 @@
-
---
 -- Table structure for table `django_content_type`
 --
 
