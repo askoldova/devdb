@@ -1,0 +1,22 @@
+{
+    "auth_group": 288,
+    "auth_group_permissions": 576,
+    "auth_permission": 864,
+    "auth_user": 1152,
+    "auth_user_groups": 1440,
+    "auth_user_user_permissions": 1728,
+    "django_admin_log": 2016,
+    "django_content_type": 2304,
+    "django_migrations": 2592,
+    "django_session": 2880,
+    "django_site": 3168,
+    "portal_lang": 3456,
+    "portal_langlocale": 3744,
+    "portal_mainmenu": 4032,
+    "portal_mainmenui18n": 4320,
+    "portal_menuitem": 4608,
+    "portal_menuitemi18n": 4896,
+    "publications_publication": 5184,
+    "publications_publicationitem": 5472,
+    "publications_publicationsubcategory": 5760
+}
