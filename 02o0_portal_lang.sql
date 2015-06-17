@@ -1,3 +1,5 @@
+
+--
 -- Table structure for table `portal_lang`
 --
 

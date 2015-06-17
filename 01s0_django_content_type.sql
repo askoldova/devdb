@@ -17,6 +17,7 @@ CREATE TABLE `django_content_type` (
 --
 
 INSERT INTO `django_content_type` (`id`, `app_label`, `model`) VALUES
+(0,'djcelery','taskmeta'),
 (1,'admin','logentry'),
 (2,'auth','permission'),
 (3,'auth','group'),

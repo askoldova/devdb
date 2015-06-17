@@ -1,3 +1,5 @@
+
+--
 -- Table structure for table `django_admin_log`
 --
 
