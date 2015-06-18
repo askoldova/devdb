@@ -7,22 +7,22 @@
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `publications_publicationitem` (
   `id` int(11) NOT NULL,
-  `publication_date` datetime(6) NOT NULL,
+  `publication_date` datetime NOT NULL,
   `show_date` tinyint(1) NOT NULL,
-  `state` varchar(5) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `title` varchar(100) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `short_text` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `text` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `state` varchar(5) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `short_text` longtext NOT NULL,
+  `text` longtext NOT NULL,
   `author_id` int(11) DEFAULT NULL,
   `locale_id` int(11) NOT NULL,
   `publication_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `publications_public_locale_id_7bfdde80607e2667_fk_portal_lang_id` (`locale_id`),
-  KEY `p_publication_id_5391d65f9a0e4658_fk_publications_publication_id` (`publication_id`),
-  KEY `publications_publicat_author_id_4cd344825c022612_fk_auth_user_id` (`author_id`),
-  CONSTRAINT `p_publication_id_5391d65f9a0e4658_fk_publications_publication_id` FOREIGN KEY (`publication_id`) REFERENCES `publications_publication` (`id`),
-  CONSTRAINT `publications_public_locale_id_7bfdde80607e2667_fk_portal_lang_id` FOREIGN KEY (`locale_id`) REFERENCES `portal_lang` (`id`),
-  CONSTRAINT `publications_publicat_author_id_4cd344825c022612_fk_auth_user_id` FOREIGN KEY (`author_id`) REFERENCES `auth_user` (`id`)
+  KEY `publications_publicationitem_author_id_5c022612_fk_auth_user_id` (`author_id`),
+  KEY `publications_publicationite_locale_id_607e2667_fk_portal_lang_id` (`locale_id`),
+  KEY `publicati_publication_id_65f1b9a8_fk_publications_publication_id` (`publication_id`),
+  CONSTRAINT `publicati_publication_id_65f1b9a8_fk_publications_publication_id` FOREIGN KEY (`publication_id`) REFERENCES `publications_publication` (`id`),
+  CONSTRAINT `publications_publicationite_locale_id_607e2667_fk_portal_lang_id` FOREIGN KEY (`locale_id`) REFERENCES `portal_lang` (`id`),
+  CONSTRAINT `publications_publicationitem_author_id_5c022612_fk_auth_user_id` FOREIGN KEY (`author_id`) REFERENCES `auth_user` (`id`)
 );
 /*!40101 SET character_set_client = @saved_cs_client */;
 

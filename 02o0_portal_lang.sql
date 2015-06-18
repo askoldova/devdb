@@ -1,5 +1,3 @@
-
---
 -- Table structure for table `portal_lang`
 --
 
@@ -7,8 +5,8 @@
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `portal_lang` (
   `id` int(11) NOT NULL,
-  `code` varchar(2) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `caption` varchar(50) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `code` varchar(2) NOT NULL,
+  `caption` varchar(50) NOT NULL,
   `default` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`)
 );
@@ -19,5 +17,5 @@ CREATE TABLE `portal_lang` (
 --
 
 INSERT INTO `portal_lang` (`id`, `code`, `caption`, `default`) VALUES
-(1,'UK','Ukraininan',1),
+(1,'UK','Українська',1),
 (2,'EN','English',0);
