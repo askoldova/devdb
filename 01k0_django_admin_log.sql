@@ -27,6 +27,7 @@ CREATE TABLE `django_admin_log` (
 --
 
 INSERT INTO `django_admin_log` (`id`, `action_time`, `object_id`, `object_repr`, `action_flag`, `change_message`, `content_type_id`, `user_id`) VALUES
+(0,'2015-06-18 14:08:25.000000','1','UK Ukraininan',2,'No fields changed.',8,1),
 (1,'2015-06-11 04:55:42.234614','1','localhost',2,'Changed domain and name.',7,1),
 (2,'2015-06-11 05:04:30.646946','1','localhost:8000',2,'Changed domain.',7,1),
 (3,'2015-06-11 06:36:48.309775','1','UK Ukraininan',1,'',8,1),
