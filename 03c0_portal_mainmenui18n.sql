@@ -1,5 +1,3 @@
-
---
 -- Table structure for table `portal_mainmenui18n`
 --
 
@@ -23,3 +21,15 @@ CREATE TABLE `portal_mainmenui18n` (
 -- Dumping data for table `portal_mainmenui18n`
 --
 
+INSERT INTO `portal_mainmenui18n` (`id`, `caption`, `locale_id`, `menu_id`) VALUES
+(1,'Askoldova krynycia library\r',2,8),
+(2,'History\r',2,5),
+(3,'News of UGCC',2,12),
+(4,'Archive',2,15),
+(5,'Efficiency',2,11),
+(6,'Misc',2,14),
+(7,'Charity\r',2,7),
+(8,'Media\r',2,9),
+(9,'Life of parish\r',2,6),
+(10,'Voice of Askold',2,16),
+(11,'About us…\n',2,10);
