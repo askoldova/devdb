@@ -71,4 +71,7 @@ INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALU
 (48,'Can delete publication subcategory',16,'delete_publicationsubcategory'),
 (49,'Can add Generation',17,'add_generation'),
 (50,'Can change Generation',17,'change_generation'),
-(51,'Can delete Generation',17,'delete_generation');
+(51,'Can delete Generation',17,'delete_generation'),
+(52,'Can add publication image',18,'add_publicationimage'),
+(53,'Can change publication image',18,'change_publicationimage'),
+(54,'Can delete publication image',18,'delete_publicationimage');

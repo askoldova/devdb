@@ -29,6 +29,7 @@
     "pub_subcats": 5112,
     "publications": 5148,
     "publications_publication": 5184,
+    "publications_publicationimage": 5328,
     "publications_publicationitem": 5472,
     "publications_publicationsubcategory": 5760,
     "subcategories": 6048

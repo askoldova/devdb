@@ -33,4 +33,5 @@ INSERT INTO `django_content_type` (`id`, `app_label`, `model`) VALUES
 (14,'publications','publication'),
 (15,'publications','publicationitem'),
 (16,'publications','publicationsubcategory'),
-(17,'generation','generation');
+(17,'generation','generation'),
+(18,'publications','publicationimage');
