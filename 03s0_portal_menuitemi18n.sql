@@ -71,10 +71,3 @@ INSERT INTO `portal_menuitemi18n` (`id`, `caption`, `locale_id`, `menu_id`, `men
 (45,'Videoarchive',2,16,55),
 (46,'Photogallery',2,16,56),
 (47,'Organisation committee',2,16,57);
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed
