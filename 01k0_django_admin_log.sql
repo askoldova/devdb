@@ -35,4 +35,5 @@ INSERT INTO `django_admin_log` (`id`, `action_time`, `object_id`, `object_repr`,
 (6,'2015-06-18 15:11:01','1','UK Українська',2,'No fields changed.',8,1),
 (7,'2015-06-18 15:11:48','1','UK Українська',2,'No fields changed.',8,1),
 (8,'2015-06-18 15:13:55','1','UK Українська',2,'No fields changed.',8,1),
-(9,'2015-06-19 05:52:36','1','UK Українська',2,'No fields changed.',8,1);
+(9,'2015-06-19 05:52:36','1','UK Українська',2,'No fields changed.',8,1),
+(10,'2015-06-21 13:23:03','1','RssImportStream object',2,'Changed menu_item.',19,1);

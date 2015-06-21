@@ -71,4 +71,7 @@ INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALU
 (51,'Can delete Generation',17,'delete_generation'),
 (52,'Can add publication image',18,'add_publicationimage'),
 (53,'Can change publication image',18,'change_publicationimage'),
-(54,'Can delete publication image',18,'delete_publicationimage');
+(54,'Can delete publication image',18,'delete_publicationimage'),
+(55,'Can add rss import stream',19,'add_rssimportstream'),
+(56,'Can change rss import stream',19,'change_rssimportstream'),
+(57,'Can delete rss import stream',19,'delete_rssimportstream');

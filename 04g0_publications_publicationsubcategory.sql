@@ -1022,10 +1022,3 @@ INSERT INTO `publications_publicationsubcategory` (`id`, `publication_id`, `subc
 (6412,5038,48),
 (6476,4793,48),
 (6478,4581,48);
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed

@@ -33,4 +33,5 @@ INSERT INTO `django_migrations` (`id`, `app`, `name`, `applied`) VALUES
 (14,'portal','0005_auto_20150615_2100','2015-06-18 14:40:36'),
 (16,'sessions','0001_initial','2015-06-18 14:40:36'),
 (17,'sites','0001_initial','2015-06-18 14:40:36'),
-(20,'publications','0001_initial','2015-06-21 11:17:31');
+(20,'publications','0001_initial','2015-06-21 11:17:31'),
+(21,'publications','0002_auto_20150621_1305','2015-06-21 13:26:10');
