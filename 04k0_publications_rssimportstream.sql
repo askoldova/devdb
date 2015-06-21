@@ -12,7 +12,11 @@ CREATE TABLE `publications_rssimportstream` (
   `link_caption` varchar(255) NOT NULL,
   `language_id` int(11) NOT NULL,
   `menu_item_id` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `publications_rssi_language_id_46814c62d26151f1_fk_portal_lang_id` (`language_id`),
+  KEY `publications__menu_item_id_98e41ce6f9c856b_fk_portal_menuitem_id` (`menu_item_id`),
+  CONSTRAINT `publications__menu_item_id_98e41ce6f9c856b_fk_portal_menuitem_id` FOREIGN KEY (`menu_item_id`) REFERENCES `portal_menuitem` (`id`),
+  CONSTRAINT `publications_rssi_language_id_46814c62d26151f1_fk_portal_lang_id` FOREIGN KEY (`language_id`) REFERENCES `portal_lang` (`id`)
 );
 /*!40101 SET character_set_client = @saved_cs_client */;
 
