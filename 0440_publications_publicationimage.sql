@@ -4276,7 +4276,7 @@ INSERT INTO `publications_publicationimage` (`id`, `file`, `caption`, `name`, `p
 (5235,'/images/2013/09/21/5089/4_52058.jpg',NULL,'4_52058.jpg',5035),
 (5236,'/images/2013/09/21/5089/rizdvo.jpg',NULL,'rizdvo.jpg',5035),
 (5237,'/images/2013/09/21/5092/o_v_rudejko2.jpg',NULL,'o_v_rudejko2.jpg',5038),
-(5238,'/images/2013/09/21/5093/55416800_1266607446_Lestvica1.jpg',NULL,'55416800_1266607446_Lestvica1.jpg',5041),
+(5238,'/images/2013/09/21/5093/55416800_1266607446_Lestvica1.jpg','','55416800_1266607446_Lestvica1.jpg',5041),
 (5239,'/images/2013/09/22/5095/Lonesome_George_-Pinta_giant_tortoise_-Santa_Cruz.jpg',NULL,'Lonesome_George_-Pinta_giant_tortoise_-Santa_Cruz.jpg',5040),
 (5240,'/images/2013/09/22/5095/46DBDED0-1D31-44E1-9C85-3F2491B277BB_mw1024_n_s.jpg',NULL,'46DBDED0-1D31-44E1-9C85-3F2491B277BB_mw1024_n_s.jpg',5040),
 (5241,'/images/2013/09/22/5095/728297_w640_h640_divchinka3.jpg',NULL,'728297_w640_h640_divchinka3.jpg',5040),
