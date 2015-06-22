@@ -48,4 +48,5 @@ INSERT INTO `django_admin_log` (`id`, `action_time`, `object_id`, `object_repr`,
 (19,'2015-06-22 06:51:32','1','UK Українська',2,'No fields changed.',8,1),
 (20,'2015-06-22 07:52:54','1','UK Українська',2,'No fields changed.',8,1),
 (21,'2015-06-22 07:53:27','1','UK Українська',2,'No fields changed.',8,1),
-(22,'2015-06-22 09:11:03','5041','ХIV Фестиваль-конкурс духовної пісні «АСКОЛЬДІВ ГЛАС» запрошує до реєстрації учасників! (uk)',2,'Changed file for publication image \"PublicationImage object\".',14,1);
+(22,'2015-06-22 09:11:03','5041','ХIV Фестиваль-конкурс духовної пісні «АСКОЛЬДІВ ГЛАС» запрошує до реєстрації учасників! (uk)',2,'Changed file for publication image \"PublicationImage object\".',14,1),
+(23,'2015-06-22 17:29:30','5041','ХIV Фестиваль-конкурс духовної пісні «АСКОЛЬДІВ ГЛАС» запрошує до реєстрації учасників! (uk)',2,'Changed file for publication image \"PublicationImage object\".',14,1);
