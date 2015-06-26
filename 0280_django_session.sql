@@ -52,4 +52,5 @@ INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALU
 INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES
 ('y2i0t657q6qns92bmdhh0srappjgf6dt','MmZiYWQyZTFhYTE0MTQ5ZWVkYTNiOTVhNTlmMWM5ZTMzMDRiMTYxMTp7fQ==','2015-07-04 12:19:28'),
 ('y6ei6wv0caagwqelzkeg2xeqx5jlsr9i','MmZiYWQyZTFhYTE0MTQ5ZWVkYTNiOTVhNTlmMWM5ZTMzMDRiMTYxMTp7fQ==','2015-07-04 10:29:32'),
+('yawp1skf0ouf1hnufqmsig9ssruj795b','OGRkNmMxZjAzN2ZmMGY5OWU4ZmVlZjgwN2ExYjg2N2ZlMDI4MWY1OTp7Il9hdXRoX3VzZXJfaGFzaCI6IjdmYmVmYjE4ZjM3YTljZjczMGVhODA1MWIwYzU5MjI2OTI4MjI1NzMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=','2015-07-10 13:49:07'),
 ('yth77btenchxpc9odystshlywnnof3yo','MmZiYWQyZTFhYTE0MTQ5ZWVkYTNiOTVhNTlmMWM5ZTMzMDRiMTYxMTp7fQ==','2015-07-04 10:29:33');
