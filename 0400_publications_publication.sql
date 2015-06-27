@@ -20,7 +20,6 @@ CREATE TABLE `publications_publication` (
   `rss_stream_id` int(11),
   `subcategory_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `slug` (`slug`),
   UNIQUE KEY `publications_publication_publication_date_a00ef33a6154870_uniq` (`publication_date`,`slug`),
   UNIQUE KEY `publications_publication_rss_stream_id_1f2a00d0ff07d00d_uniq` (`rss_stream_id`,`rss_url`),
   KEY `publications_publication_state_16e62e0a71fe47cf_idx` (`state`,`publication_date`),

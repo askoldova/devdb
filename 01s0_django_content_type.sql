@@ -34,4 +34,5 @@ INSERT INTO `django_content_type` (`id`, `app_label`, `model`) VALUES
 (16,'publications','publicationsubcategory'),
 (17,'generation','generation'),
 (18,'publications','publicationimage'),
-(19,'publications','rssimportstream');
+(19,'publications','rssimportstream'),
+(20,'publications','configuration');
