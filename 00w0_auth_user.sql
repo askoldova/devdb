@@ -25,7 +25,7 @@ CREATE TABLE `auth_user` (
 --
 
 INSERT INTO `auth_user` (`id`, `password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES
-(1,'pbkdf2_sha256$20000$DqH7LgWMtpgQ$1lG597xsxGqipHa2lFaCaF/JRgR/zj0hR+7sUdnRJDM=','2015-06-26 13:49:06',1,'andriyg_local','','','',1,1,'2015-06-18 14:40:55'),
+(1,'pbkdf2_sha256$20000$DqH7LgWMtpgQ$1lG597xsxGqipHa2lFaCaF/JRgR/zj0hR+7sUdnRJDM=','2015-06-27 13:38:08',1,'andriyg_local','','','',1,1,'2015-06-18 14:40:55'),
 (2,'',NULL,0,'I.Rybalko','','I.Rybalko','',0,1,'2015-06-19 09:04:50'),
 (3,'',NULL,0,'Andriy Gushuley','','Andriy Gushuley','',0,1,'2015-06-19 09:04:50'),
 (4,'',NULL,0,'Віталіна Онишкевич','','Віталіна Онишкевич','',0,1,'2015-06-19 09:04:50'),
