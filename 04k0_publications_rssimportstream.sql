@@ -24,5 +24,12 @@ CREATE TABLE `publications_rssimportstream` (
 -- Dumping data for table `publications_rssimportstream`
 --
 
-INSERT INTO `publications_rssimportstream` (`id`, `enabled`, `rss_url`, `pool_period_mins`, `next_pool`, `link_caption`, `language_id`, `menu_item_id`) VALUES
-(1,1,'http://api.oranta.org/rss',1,'2016-04-08 23:26:32.000000','Детальніше читайте на сайті http://www.oranta.org/',1,26);
+INSERT INTO `publications_rssimportstream` VALUES
+(1,1,'http://api.oranta.org/rss',1,'2016-04-17 16:24:28.000000','Детальніше читайте на сайті http://www.oranta.org/',1,26);
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2016-04-17 23:13:57

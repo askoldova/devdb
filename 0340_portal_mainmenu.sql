@@ -18,7 +18,7 @@ CREATE TABLE `portal_mainmenu` (
 -- Dumping data for table `portal_mainmenu`
 --
 
-INSERT INTO `portal_mainmenu` (`id`, `caption`, `order`, `hidden`, `width`) VALUES
+INSERT INTO `portal_mainmenu` VALUES
 (5,'Історія',0,0,'250'),
 (6,'Життя парафії',1,0,'250'),
 (7,'Благодійність',2,0,'250'),

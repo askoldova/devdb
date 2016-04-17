@@ -1,3 +1,5 @@
+
+--
 -- Table structure for table `django_content_type`
 --
 
@@ -8,7 +10,7 @@ CREATE TABLE `django_content_type` (
   `app_label` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `model` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `django_content_type_app_label_45f3b1d93ec8c61c_uniq` (`app_label`,`model`)
+  UNIQUE KEY `django_content_type_app_label_76bd3d3b_uniq` (`app_label`,`model`)
 );
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -16,7 +18,7 @@ CREATE TABLE `django_content_type` (
 -- Dumping data for table `django_content_type`
 --
 
-INSERT INTO `django_content_type` (`id`, `app_label`, `model`) VALUES
+INSERT INTO `django_content_type` VALUES
 (1,'admin','logentry'),
 (2,'auth','permission'),
 (3,'auth','group'),
@@ -30,9 +32,11 @@ INSERT INTO `django_content_type` (`id`, `app_label`, `model`) VALUES
 (11,'portal','mainmenui18n'),
 (12,'portal','menuitem'),
 (13,'portal','menuitemi18n'),
-(14,'generation','generation'),
+(14,'publications','rssimportstream'),
 (15,'publications','publication'),
-(17,'publications','publicationsubcategory'),
-(18,'publications','rssimportstream'),
-(19,'publications','publicationimage'),
-(20,'publications','configuration');
+(16,'publications','publicationsubcategory'),
+(17,'publications','publicationimage'),
+(18,'publications','configuration'),
+(19,'publications','portalregion'),
+(20,'publications','portalregioncontent'),
+(21,'generation','generation');

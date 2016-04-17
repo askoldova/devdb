@@ -16,6 +16,6 @@ CREATE TABLE `portal_lang` (
 -- Dumping data for table `portal_lang`
 --
 
-INSERT INTO `portal_lang` (`id`, `code`, `caption`, `default`) VALUES
-(1,'UK','Ukraininan',1),
+INSERT INTO `portal_lang` VALUES
+(1,'UK','Українська',1),
 (2,'EN','English',0);

@@ -16,5 +16,5 @@ CREATE TABLE `django_site` (
 -- Dumping data for table `django_site`
 --
 
-INSERT INTO `django_site` (`id`, `domain`, `name`) VALUES
-(1,'localhost:8000','localhost');
+INSERT INTO `django_site` VALUES
+(1,'example.com','example.com');
